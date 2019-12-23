@@ -6,7 +6,7 @@ var specialProxyForNetwork2 = "PROXY 168.168.168.168:3128";
 var special_domains = new Array (
 	"172.172.172.172",
 	".ends.like.this.com",
-	"www.google.com",
+	"www.google.com"
 );
 
 var network1Ips = new Array (
@@ -19,12 +19,12 @@ var network2Ips = new Array (
 	"12.12.12.0/255.255.255.0"
 );
 
-
 function isSpecialDomain(url, host) {
+    var i;
 	for (i = 0; i < special_domains.length; i++) {
 		regex = new RegExp(special_domains[i].replace(/\./g,"\\.") + "$", "i");
 		if (regex.test(host) == true ) {
-			// alert("Using Special Proxy");
+			//alert("Using Special Proxy");
 			return true;
 		}
 	}
@@ -71,9 +71,9 @@ function FindProxyForURL(url, host)
 	if (isPlainHostName(host))
 		return "DIRECT";
         
-    var specialDomain = isSpecialDomain(host);
+    var specialDomain = isSpecialDomain(url,host);
     if (specialDomain) {
-    
+        
         if(isInOneOfTheNetworks(network1Ips)) {
             return specialProxyForNetwork1;
         }
