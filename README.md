@@ -23,8 +23,8 @@ A Python 3 installation able to run this command (it basically means you have th
 
 1. Clone this repository
 2. Update your proxy script
-   a. template available to modify
-   b. download a template from your wpad server, if any, and modify
+   1. template available to modify
+   2. download a template from your wpad server, if any, and modify
       1. a command like `wget wpad` should be enough in most cases
 3. Replace the proxy script
 4. Go to the proxy folder
