@@ -7,6 +7,7 @@ This repository aims to help users create their own simple proxy script in case 
 Check these pages:
 * [stackoverflow](https://stackoverflow.com/questions/191023/how-does-windows-actually-detect-lan-proxy-settings-when-using-automatic-confi)
 * [wikipedia](https://en.wikipedia.org/wiki/Web_Proxy_Auto-Discovery_Protocol)
+* [proxy PAC information](https://developer.mozilla.org/en-US/docs/Web/HTTP/Proxy_servers_and_tunneling/Proxy_Auto-Configuration_(PAC)_file)
 
 # Prerequisites
 
