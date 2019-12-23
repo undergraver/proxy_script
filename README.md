@@ -8,6 +8,7 @@ Check these pages:
 * [stackoverflow](https://stackoverflow.com/questions/191023/how-does-windows-actually-detect-lan-proxy-settings-when-using-automatic-confi)
 * [wikipedia](https://en.wikipedia.org/wiki/Web_Proxy_Auto-Discovery_Protocol)
 * [proxy PAC information](https://developer.mozilla.org/en-US/docs/Web/HTTP/Proxy_servers_and_tunneling/Proxy_Auto-Configuration_(PAC)_file)
+* [proxy script sample](https://gist.github.com/raghur/7aba1d879d49f30e7c833875d79d966b)
 
 # Prerequisites
 
